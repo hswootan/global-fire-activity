@@ -6,7 +6,7 @@ from plotly import offline
 
 num_rows = 3_000
 
-filename = '/Users/hongwoo/Desktop/world-fires/data/world_fires_1_day.csv'
+filename = '/data/world_fires_1_day.csv'
 with open(filename) as f:
     reader = csv.reader(f)
     header_row = next(reader)
